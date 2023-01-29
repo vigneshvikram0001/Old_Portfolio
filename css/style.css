@@ -603,7 +603,7 @@ section{
 
 @media (max-width:400px){
     .contact .newslatter{
-        width: 410px;
+        width: 350px;
     }
     .contact .newslatter .cta{
         padding: 8px 4px;
@@ -619,9 +619,6 @@ section{
     .home{
         height: 100vh;
         background-position: left;
-    }
-    .contact .newslatter input{
-        width: 270px;
     }
 }
 
