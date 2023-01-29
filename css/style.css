@@ -431,6 +431,7 @@ section{
     align-items: center;
 }
 .contact .newslatter input{
+    background-color: green;
     border: none;
     outline: none;
 }
@@ -612,6 +613,9 @@ section{
         width: 100%;
         height: 100%;
         padding: 0 3% 120px;
+    }
+    .contact .newslatter input{
+        width: 65%;
     }
 }
 
