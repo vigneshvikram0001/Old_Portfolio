@@ -206,12 +206,12 @@ section{
 }
 .skills-list li h3{
     color: var(--second-color);
-    text-shadow: 0 5px 7px rgba(64, 64, 64, 0.669);
+    text-shadow: 0 3px 2px rgba(123, 123, 123, 0.669);
 }
 .skills-list{
     padding: 30px;
-    background-color: rgb(212, 212, 212);
-    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 15px 30px rgba(0, 0, 0, 0.84);
+    background-color: rgb(246, 246, 246);
+    box-shadow: 0 1px 3px rgba(122, 122, 122, 0.443), 0 15px 30px rgba(160, 160, 160, 0.534);
     border-radius: 15px;
 }
 .skills-list li{
@@ -223,10 +223,10 @@ section{
     display: block;
     height: 20px;
     margin-top: 10px;
-    border: 1px solid rgba(0,0,0,0.3);
+    border: 1px solid var(--main-color);
     border-radius: 10px;
     overflow: hidden;
-    background-color: rgb(209, 209, 209);
+    background-color: rgb(252, 252, 252);
     transition: all 0.3s cubic-bezier(.25,.8,.25,1);
     box-shadow: 0 14px 20px rgba(0, 0, 0, 0.155), 0 10px 10px rgba(0, 0, 0, 0.158);
 }
@@ -606,7 +606,7 @@ section{
         width: 410px;
     }
     .contact .newslatter .cta{
-        padding: 8px 10px;
+        padding: 8px 4px;
     }
     .skills{
         width: 100%;
@@ -619,7 +619,6 @@ section{
     .home{
         height: 100vh;
         background-position: left;
-        background: url(../img/home2.jpg));
     }
 }
 
