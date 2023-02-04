@@ -23,14 +23,12 @@ const st = ScrollReveal({
 })
 sr.reveal('.home-text', {delay: 300, origin:'left'})
 sr.reveal('.about, .services, .portfolio, .blog', {delay: 10, origin:'bottom'})
-sr.reveal('.heading, .newslatter, .content-h3', {delay: 150, origin:'bottom'})
+sr.reveal('.newslatter, .content-h3', {delay: 150, origin:'bottom'})
 sr.reveal('.about-img img', {delay: 170, origin:'left'})
 st.reveal('.box:nth-child(1)', {delay: 100, origin:'left'})
 st.reveal('.box:nth-child(2)', {delay: 100, origin:'bottom'})
 st.reveal('.box:nth-child(3)', {delay: 100, origin:'left'})
-sr.reveal('.heading, .about-text, .skills', { delay: 130, origin: 'bottom' })
-
-
+sr.reveal('.about-text, .skills', { delay: 130, origin: 'bottom' })
 
 
 

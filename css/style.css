@@ -116,13 +116,25 @@ section{
     height: 100vh;
     width: 100%;
     padding-right:50px ;
-    background: linear-gradient(rgba(0, 0, 0, 0.518), rgba(0, 0, 0, 0.53)), url(../img/home2.jpg);
-    background-position: center;
-    background-size: cover;
     position: relative;
     display: grid;
     grid-template-columns: repeat(1, 1fr);
     align-items: center;
+    background: linear-gradient(334deg, #6b97f7, #7525e2, #f7137e);
+	background-size: 180% 180%;
+	animation: gradient-animation 6s ease infinite;
+}
+
+@keyframes gradient-animation {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
 }
 .home-text{
     padding-top: 100px ;
@@ -369,7 +381,7 @@ section{
 .col img{
     max-width: 100%;
     width: 620px;
-    height: 500px;
+    height: 200px;
     transition: ease .35s;
     object-fit: cover;
     object-position: top;
@@ -384,7 +396,6 @@ section{
     position: absolute;
     top: 0;
     left: 0;
-    border-radius: 10px;
     transition: all .35s;
 }
 .layer:hover{
